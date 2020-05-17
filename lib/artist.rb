@@ -16,3 +16,6 @@ class Artist
     song = Song.new(name, self, genre)
     self.songs.last 
   end 
+  
+  def songs 
+    |artist|
