@@ -19,5 +19,9 @@ class Genre
       song.artist
     end
   end
+  
+  def self.all 
+    @@all 
+  end 
 end
 
